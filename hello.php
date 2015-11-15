@@ -2,14 +2,11 @@
 	<?php
 		if($emty($_POST))
 		{
-			$nama = $_POST['name'];
+			$nama = $_POST['nama'];
 			$email = $_POST['email'];
-		}
+			
+			echo $nama;
+			echo $email;
+		}		
 	?>
-	
-	<body>
-		<h1><?php $nama ?></h1>
-	
-		<h3><?php $email ?>x</h3>
-	</body>
 </html>
