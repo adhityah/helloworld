@@ -1,6 +1,6 @@
 <html>
 	<?php
-		if($empty($_POST))
+		if(!empty($_POST))
 		{
 			$nama = $_POST['nama'];
 			$email = $_POST['email'];
