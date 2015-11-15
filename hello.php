@@ -5,6 +5,7 @@
 		{
 			$nama = $_POST['nama'];
 			$email = $_POST['email'];
+			$date = date("Y-m-d");
 			
 			echo $nama;
 			echo $email;
